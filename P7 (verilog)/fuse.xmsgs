@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/D_part.v" Line 72: &lt;<arg fmt="%s" index="1">Op</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/D_part.v" Line 73: &lt;<arg fmt="%s" index="1">Rt</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 143: &lt;<arg fmt="%s" index="1">NPC_back_F</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 144: &lt;<arg fmt="%s" index="1">Instr_regE</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 145: &lt;<arg fmt="%s" index="1">NPCsel_back_F</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 176: &lt;<arg fmt="%s" index="1">Instr_regM</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 204: &lt;<arg fmt="%s" index="1">CP0DataW</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 205: &lt;<arg fmt="%s" index="1">Instr_regW</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 206: &lt;<arg fmt="%s" index="1">CP0Write</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 233: &lt;<arg fmt="%s" index="1">RW_back_D</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 234: &lt;<arg fmt="%s" index="1">DataW_back_D</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 235: &lt;<arg fmt="%s" index="1">RegWrite_back_D</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 249: &lt;<arg fmt="%s" index="1">RS_Dforward</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 250: &lt;<arg fmt="%s" index="1">PC_en</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 44: Port <arg fmt="%s" index="1">Cal_r</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 52: Port <arg fmt="%s" index="1">Cal_r</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 56: Port <arg fmt="%s" index="1">Cal_r</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/Projects/ISE/mips2/cpu.v" Line 77: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ExcCode</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/F_part.v" Line 55: Port <arg fmt="%s" index="1">Data5</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/D_part.v" Line 60: Port <arg fmt="%s" index="1">Rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/D_part.v" Line 108: Port <arg fmt="%s" index="1">Data2</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/D_part.v" Line 118: Port <arg fmt="%s" index="1">Data5</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/D_part.v" Line 127: Port <arg fmt="%s" index="1">Data5</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/E_part.v" Line 63: Port <arg fmt="%s" index="1">Rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/E_part.v" Line 76: Port <arg fmt="%s" index="1">Data6</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/E_part.v" Line 86: Port <arg fmt="%s" index="1">Data6</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/E_part.v" Line 101: Port <arg fmt="%s" index="1">Data2</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/E_part.v" Line 108: Port <arg fmt="%s" index="1">Data2</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/M_part.v" Line 65: Port <arg fmt="%s" index="1">Rt</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/M_part.v" Line 78: Port <arg fmt="%s" index="1">Data3</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/W_part.v" Line 54: Port <arg fmt="%s" index="1">Rt</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/W_part.v" Line 76: Port <arg fmt="%s" index="1">Data3</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/W_part.v" Line 87: Port <arg fmt="%s" index="1">Data5</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/hu.v" Line 64: Port <arg fmt="%s" index="1">Jal</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/hu.v" Line 78: Port <arg fmt="%s" index="1">B</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/hu.v" Line 93: Port <arg fmt="%s" index="1">B</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Projects/ISE/mips2/hu.v" Line 107: Port <arg fmt="%s" index="1">B</arg> is not connected to this instance
+</msg>
+
+</messages>
+

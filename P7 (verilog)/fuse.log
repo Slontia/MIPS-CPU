@@ -1,0 +1,104 @@
+Running: D:\Xilinx_ISE_14.7\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Projects/ISE/mips2/test_isim_beh.exe -prj D:/Projects/ISE/mips2/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Projects/ISE/mips2/npc.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/mux.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/instr_type.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/im.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/grf.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/ext.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/DMExt.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/dm.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/controller.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/cmp.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/aluMD.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/alu.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/W_part.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/M_part.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/hu.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/F_part.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/E_part.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/D_part.v" into library work
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/D_part.v" Line 72: <Op> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/D_part.v" Line 73: <Rt> is already implicitly declared earlier.
+Analyzing Verilog file "D:/Projects/ISE/mips2/cp0.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/timer.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/cpu.v" into library work
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 143: <NPC_back_F> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 144: <Instr_regE> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 145: <NPCsel_back_F> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 176: <Instr_regM> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 204: <CP0DataW> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 205: <Instr_regW> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 206: <CP0Write> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 233: <RW_back_D> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 234: <DataW_back_D> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 235: <RegWrite_back_D> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 249: <RS_Dforward> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Projects/ISE/mips2/cpu.v" Line 250: <PC_en> is already implicitly declared earlier.
+Analyzing Verilog file "D:/Projects/ISE/mips2/bridge.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/mips.v" into library work
+Analyzing Verilog file "D:/Projects/ISE/mips2/test.v" into library work
+Analyzing Verilog file "D:/Xilinx_ISE_14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/cpu.v" Line 44: Port Cal_r is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/cpu.v" Line 52: Port Cal_r is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/cpu.v" Line 56: Port Cal_r is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/Projects/ISE/mips2/cpu.v" Line 77: Size mismatch in connection of port <ExcCode>. Formal port size is 5-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/F_part.v" Line 55: Port Data5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/D_part.v" Line 60: Port Rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/D_part.v" Line 108: Port Data2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/D_part.v" Line 118: Port Data5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/D_part.v" Line 127: Port Data5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/E_part.v" Line 63: Port Rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/E_part.v" Line 76: Port Data6 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/E_part.v" Line 86: Port Data6 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/E_part.v" Line 101: Port Data2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/E_part.v" Line 108: Port Data2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/M_part.v" Line 65: Port Rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/M_part.v" Line 78: Port Data3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/W_part.v" Line 54: Port Rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/W_part.v" Line 76: Port Data3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/W_part.v" Line 87: Port Data5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/hu.v" Line 64: Port Jal is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/hu.v" Line 78: Port B is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/hu.v" Line 93: Port B is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Projects/ISE/mips2/hu.v" Line 107: Port B is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 156672 KB
+Fuse CPU Usage: 374 ms
+Compiling module instr_type
+Compiling module cp0
+Compiling module mux_8_32
+Compiling module im
+Compiling module F_part
+Compiling module controller
+Compiling module grf
+Compiling module ext
+Compiling module cmp
+Compiling module npc
+Compiling module D_part
+Compiling module alu
+Compiling module aluMD
+Compiling module mux_2_32
+Compiling module E_part
+Compiling module dm
+Compiling module M_part
+Compiling module DMExt
+Compiling module mux_8_5
+Compiling module W_part
+Compiling module hu
+Compiling module cpu
+Compiling module bridge
+Compiling module timer
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 27 Verilog Units
+Built simulation executable D:/Projects/ISE/mips2/test_isim_beh.exe
+Fuse Memory Usage: 170076 KB
+Fuse CPU Usage: 859 ms

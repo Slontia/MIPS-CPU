@@ -1,0 +1,5 @@
+set -tmpdir "D:/Projects/ISE/mips2/xst/projnav.tmp"
+set -xsthdpdir "D:/Projects/ISE/mips2/xst"
+elaborate
+-ifn controller.prj
+-ifmt mixed

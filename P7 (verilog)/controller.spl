@@ -1,0 +1,17 @@
+[Inputs]
+=op[5:0]=
+=func[5:0]=
+[Outputs]
+RegWrite
+MemWrite
+=RegDst[2:0]=
+=DataToReg[2:0]=
+=ExtOp[2:0]=
+=ALUsrc[2:0]=
+=ALUctr[2:0]=
+=NPCctr[2:0]=
+=NPCsel[2:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel controller
+

@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/Projects/ISE/mips2/controller.v -lang verilog -prj mips2 -o controller.spl -module controller -template D:/Xilinx_ISE_14.7/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3 controller.spl D:/Projects/ISE/mips2/controller.sym 
+vhdtdtfi -lang verilog -prj mips2 -o D:/Projects/ISE/mips2/controller.tfi -lib work D:/Projects/ISE/mips2//controller.v -module controller -template D:/Xilinx_ISE_14.7/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

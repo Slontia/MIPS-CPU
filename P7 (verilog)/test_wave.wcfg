@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Projects/ISE/mips2/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/ALUMDctr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUMDctr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUMDctr[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/DataA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DataA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/DataB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DataB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataB[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/mult" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mult</obj_property>
+      <obj_property name="ObjectShortName">mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/multu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">multu</obj_property>
+      <obj_property name="ObjectShortName">multu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/div" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">div</obj_property>
+      <obj_property name="ObjectShortName">div</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/divu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">divu</obj_property>
+      <obj_property name="ObjectShortName">divu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/mtlo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mtlo</obj_property>
+      <obj_property name="ObjectShortName">mtlo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/mthi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mthi</obj_property>
+      <obj_property name="ObjectShortName">mthi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/DataSignA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DataSignA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DataSignA[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/DataSignB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DataSignB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DataSignB[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/HI" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HI[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/LO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LO[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/Busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Busy</obj_property>
+      <obj_property name="ObjectShortName">Busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/HIrst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HIrst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HIrst[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/LOrst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LOrst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LOrst[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/_E/_aluMD/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
